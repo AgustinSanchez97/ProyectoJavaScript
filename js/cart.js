@@ -216,6 +216,7 @@ function priceResult(array,number)
 
 //FUNCION PARA FINALIZAR COMPRA USANDO SWEETALERT2
 function endBuy(){
+    if(productShown.length == 0) return
     let timerInterval
     Swal.fire({
       title: 'Procesando',
