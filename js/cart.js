@@ -216,7 +216,8 @@ function priceResult(array,number)
 
 //FUNCION PARA FINALIZAR COMPRA USANDO SWEETALERT2
 function endBuy(){
-    if(productShown.length == 0) return
+  //COMPRUEBO SI TENGO PRODUCTOS PARA CONTINUAR LA ACCION
+  if(productShown.length == 0) return
     let timerInterval
     Swal.fire({
       title: 'Procesando',
@@ -248,8 +249,8 @@ function endBuy(){
 //FUNCION PARA CANCELAR CARRO Y LIMPIARLO EN CASO DE QUE TENGA ALGO QUE LIMPIAR
 function cancelCart()
 {  
+  //COMPRUEBO SI TENGO PRODUCTOS PARA CONTINUAR LA ACCION
   if(productShown.length == 0) return
-
   Swal.fire({
     title: 'Deseas borrar el carrito?',
     text: "Esto no podra ser revertido!",
