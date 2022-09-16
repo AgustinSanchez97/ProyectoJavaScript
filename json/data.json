@@ -1,0 +1,154 @@
+[
+    {
+        "id": 0,
+        "name": "Zapatillas Negras Ajustables",
+        "img": "Imagenes/Zapatilla_Negra_ejercicio_Raya_Blanca.jpg",
+        "description": "Zapatillas ergonómicas con almohadillas incorporadas para suavizar el impacto a la hora de hacer ejercicio",
+        "price": 5300,
+        "quantity": 0,
+        "clothType": "zapatilla"
+    },
+    {
+        "id": 1,
+        "name": "Zapatillas Negras con Cordones",
+        "img": "Imagenes/Zapatilla_Negra_ejercicio.webp",
+        "description": "Zapatillas ergonómicas con cubierta antimanchas y semi-impermeables, ideal para un día de lluvia",
+        "price": 4300,
+        "quantity": 0,
+        "clothType": "zapatillas"
+    },
+    {
+        "id": 2,
+        "name": "Zapatillas Blancas con cordones",
+        "img": "Imagenes/Zapatilla_Blanca.webp",
+        "description": "Zapatillas blancas con rayas negras y cordones",
+        "price": 3600,
+        "quantity": 0,
+        "clothType": "zapatillas"
+    },
+    {
+        "id": 3,
+        "name": "Zapatillas Negras y Blancas con Cordones",
+        "img": "Imagenes/Zapatilla_Negra_Rayas_Blancas.webp",
+        "description": "Zapatillas negras con rayas blancas y cordones",
+        "price": 3300,
+        "quantity": 0,
+        "clothType": "zapatillas"
+    },
+    {
+        "id": 4,
+        "name": "Jeans Azules",
+        "img": "Imagenes/Jean_Azul.jpg",
+        "description": "Jeans Azules",
+        "price": 6100,
+        "quantity": 0,
+        "clothType": "jeans"
+    },
+    {
+        "id": 5,
+        "name": "Jeans Azules Gastados",
+        "img": "Imagenes/Jean_Azul_Roto.jpg",
+        "description": "Jeans Azules Gastados",
+        "price": 6500,
+        "quantity": 0,
+        "clothType": "jeans"
+    },
+    {
+        "id": 6,
+        "name": "Jeans Negros",
+        "img": "Imagenes/Jean_Negro.jpg",
+        "description": "Jean Negro",
+        "price": 6300,
+        "quantity": 0,
+        "clothType": "jeans"
+    },
+    {
+        "id": 7,
+        "name": "Malla Beige",
+        "img": "Imagenes/Malla_Beige.jpg",
+        "description": "Jean Beige",
+        "price": 3500,
+        "quantity": 0,
+        "clothType": "malla"
+    },
+    {
+        "id": 8,
+        "name": "Malla Azul",
+        "img": "Imagenes/Malla_Azul.jpg",
+        "description": "Jean Azul",
+        "price": 3300,
+        "quantity": 0,
+        "clothType": "malla"
+    },
+    {
+        "id": 9,
+        "name": "Malla Blanco Y Negro",
+        "img": "Imagenes/Malla_Blanco_Y_Negro.jpg",
+        "description": "Malla Blanco Y Negro",
+        "price": 3800,
+        "quantity": 0,
+        "clothType": "malla"
+    },
+    {
+        "id": 10,
+        "name": "Remera Blanca",
+        "img": "Imagenes/Remera_Blanca.jpg",
+        "description": "Remera Blanca",
+        "price": 2300,
+        "quantity": 0,
+        "clothType": "remeracorta"
+    },
+    {
+        "id": 11,
+        "name": "Remera Negra",
+        "img": "Imagenes/Remera_Negra.jpg",
+        "description": "Remera Negra",
+        "price": 2500,
+        "quantity": 0,
+        "clothType": "remeracorta"
+    },
+    {
+        "id": 12,
+        "name": "Remera Blanca Dibujo",
+        "img": "Imagenes/Remera_Blanca_Dibujo.png",
+        "description": "Remera Blanca Dibujo",
+        "price": 2800,
+        "quantity": 0,
+        "clothType": "remeracorta"
+    },
+    {
+        "id": 13,
+        "name": "Remera Blanca Mangas Largas",
+        "img": "Imagenes/Remera_Blanca_Mangas_Largas.jpg",
+        "description": "Remera Blanca Mangas Largas",
+        "price": 3800,
+        "quantity": 0,
+        "clothType": "remeralarga"
+    },
+    {
+        "id": 14,
+        "name": "Remera Negra Mangas Largas",
+        "img": "Imagenes/Remera_Negra_Mangas_Largas.jpeg",
+        "description": "Remera Negra Mangas Largas",
+        "price": 4000,
+        "quantity": 0,
+        "clothType": "remeralarga"
+    },
+    {
+        "id": 15,
+        "name": "Remera Verde Mangas Largas",
+        "img": "Imagenes/Remera_Verde_Mangas_Largas.jpg",
+        "description": "Remera Verde Mangas Largas",
+        "price": 4300,
+        "quantity": 0,
+        "clothType": "remeralarga"
+    }
+]
+
+
+
+
+
+
+
+

@@ -1,0 +1,89 @@
+body {
+  width: 100%;
+  margin: 0px;
+  background-color: black; }
+
+.carouselText {
+  color: white;
+  background-color: #0000009a; }
+
+.mainStyle {
+  margin-top: 80px;
+  margin-bottom: 40px; }
+
+.cardStyle {
+  background-color: #2d3138; }
+
+.cardImgStyle {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px; }
+
+ .horizontalCardImgStyle {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px; }
+
+
+.buttonHeader {
+  background-color: #52111111; }
+
+.storeButton {
+  width: 100%; }
+
+.buttonCatalog {
+  background-color: #FF3737; }
+
+.buttonClothesType {
+  background-color: #dcd135; }
+
+.buttonClothesDetail {
+  background-color: #64dc35; }
+
+.catalogMenu {
+  display: flex;
+  gap: 10px; }
+
+ul li {
+  text-decoration: none;
+  list-style: none; }
+
+li a {
+  text-decoration: none;
+  list-style: none;
+  color: black; }
+
+.hoverable {
+  color: white;
+  transition: all 1s; }
+
+.hoverable:hover {
+  color: #c7bb11;
+  transition: all 1s; }
+
+.flexImages {
+  display: flex;
+  justify-content: center; }
+
+#cartQuantityNumber{
+  color: #fff;
+  position: relative;
+  top: -1.1375em;
+  right: -5.9375em;
+  margin: 0px;
+  background-color: #e26e6c;
+  border-radius: 50%;
+  width: 2.0em;
+  height: 1.8em;
+  vertical-align: middle;
+  }
+
+  #cartButton{
+    height: 50px;
+  }
+
+
+/* STYLE PARA MOBILE */
+/* STYLE PARA PC */
+@media screen and (min-width: 1000px) {
+  .mainCarousel {
+    max-width: 900px;
+    max-height: 550px; } }
