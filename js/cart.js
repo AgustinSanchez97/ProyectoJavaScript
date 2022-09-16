@@ -284,7 +284,7 @@ function clearCart()
 //CARGA ASINCRONICA DE DATOS
 async function getStockProducts()
 {
-    const respose = await fetch("../json/data.json")
+    const respose = await fetch("json/data.json")
     productsInStock = await respose.json()    
 }
 
