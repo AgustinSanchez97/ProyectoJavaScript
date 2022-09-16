@@ -273,7 +273,7 @@ function cancelCart()
 //CARGA ASINCRONICA DE BASE DE DATOS
 async function getStockProducts()
 {
-    const respose = await fetch("json/data.json")
+    const respose = await fetch("json/data.json"),
     productsInStock = await respose.json()    
     saveInStorage("productsInStock",productsInStock)
     
