@@ -71,7 +71,6 @@ function displayCart(products=[])
             </div>
             <div class="vr justify-content-end"></div>
               
-
             </div>
             <div class="col-sm-2 p-0 ">
               <img src=${product.img} class="img-fluid horizontalCardImgStyle rounded-4  my-1" alt="">

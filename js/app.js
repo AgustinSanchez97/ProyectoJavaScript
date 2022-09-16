@@ -242,7 +242,6 @@ function PaginationButton (page, items) {
 		currentPage = page
         productsPerPage(currentProductsDisplay,maxProductsPerPage,currentPage)        
 	})
-
 	return button
 }
 
