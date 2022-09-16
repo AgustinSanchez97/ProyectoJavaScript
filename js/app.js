@@ -159,7 +159,8 @@ function filterPerType()
     currentProductsDisplay = loadFromStorage("productsInStock")
     //Si el filtro cambia a "todos" muestro todos los tipos de productos. Sino uso el filtro para limpiar la lista de productos a mostrar
     currentProductsDisplay = query == "todos"? currentProductsDisplay : currentProductsDisplay.filter((product) => product.clothType.includes(query))
-    
+    //Limpio input de busqueda para no confundir al usuario
+    searchBar.value = ""
     //RESETEO LA PAGINA EN LA QUE ESTOY PARADO
     currentPage = 1
     //DEFINO LA CANTIDAD DE PRODUCTOS MOSTRADO POR PAGINA    

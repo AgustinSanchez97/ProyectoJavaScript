@@ -77,7 +77,7 @@ function displayCart(products=[])
               <img src=${product.img} class="img-fluid horizontalCardImgStyle rounded-4  my-1" alt="">
             </div>
             
-            <div class="col-sm-3 p-0 my-auto d-flex justify-content-center align-items-center">
+            <div class="col-sm-3 p-0 d-flex justify-content-center align-items-center">
               <h5 class="card-title py-5 text-break my-auto mx-auto"> 
                 ${product.name}
               </h5>
@@ -284,8 +284,8 @@ function clearCart()
 //CARGA ASINCRONICA DE DATOS
 async function getStockProducts()
 {
-    const respose = await fetch("json/data.json")
-    productsInStock = await respose.json()    
+    const respose = await fetch("json/data.json"),
+    productsInStock = await respose.json()
 }
 
 //SELECTORES
