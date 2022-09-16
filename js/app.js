@@ -277,11 +277,13 @@ async function getStockProducts()
     productsInStock = await respose.json()    
     saveInStorage("productsInStock",productsInStock)
     
+    //CARGO LOS DATOS ASINCRONICOS A LOCALSTORAGE PARA FACILITAR EL ACCESO A LA INFORMACION
     cart = loadFromStorage("productsInStock")
     currentProductsDisplay = loadFromStorage("productsInStock")
-    
-    if(loadFromStorage("productsToBuy") != null)
-    {        
+
+    //EN CASO DE AGREGARSE O REMOVERSE NUEVOS PRODUCTOS A LA BASE DE DATOS SE CARGA DE 0 LA PAGINA
+    if(loadFromStorage("productsToBuy") != null && (loadFromStorage("productsInStock").length == loadFromStorage("productsToBuy").length))
+    {                
         cart = loadFromStorage("productsToBuy")
         currentProductsDisplay = loadFromStorage("productsToBuy")
     }
